@@ -15,7 +15,7 @@ export function BookCard({ imageUrl, imageAlt, name, author }: Book) {
           className="inline-block group-hover:ease-in-out group-hover:duration-300 group-hover:scale-110"
           src={imageUrl}
           >
-          </Image> : <span className="text-white">No image to show</span>}
+          </Image> : <p className="text-white text-md">No image to show</p>}
         </div>
         <div className="pt-3 pb-1">
           <span className="text-white block">{name.toUpperCase()}</span>

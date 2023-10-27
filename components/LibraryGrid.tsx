@@ -1,11 +1,10 @@
 "use client"
+import { Book } from "@/types/book";
 import { BookCard } from "./BookCard";
 
-type BookListItem = {
-}
 
 interface LibraryGridProps {
-    booksList: Array<BookListItem>;
+    booksList: Array<Book>;
 }
 
 export function LibraryGrid({ booksList }: LibraryGridProps) {
