@@ -7,11 +7,20 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      sans: ['"Maison Neue"'],
+      mono: ['"Maison Neue Mono"'],
+    },
+
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        purple: {
+          DEFAULT: "#2A1D5D",
+          light: "#402F7E",
+           "very-light": "#9AB9F4",
+        },
+        white: "#ffffff",
+        black: "#000000",
       },
     },
   },

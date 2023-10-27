@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-Medium.woff2') format('woff2'),
+      url('/fonts/MaisonNeue-Medium.woff') format('woff');
+    font-weight: 400; /* This is actually 500, be we use it as the default font weight */
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-Demi.woff2') format('woff2'),
+      url('/fonts/MaisonNeue-Demi.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: 'Maison Neue Mono';
+    src: url('/fonts/MaisonNeueMono-Regular.woff2') format('woff2'),
+      url('/fonts/MaisonNeueMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: 'Maison Neue Mono';
+    src: url('/fonts/MaisonNeueMono-Regular.woff2') format('woff2'),
+      url('/fonts/MaisonNeueMono-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url('/fonts/MaisonNeue-MediumItalic.woff2') format('woff2'),
+      url('/fonts/MaisonNeue-MediumItalic.woff2') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: fallback;
+  }
+  
