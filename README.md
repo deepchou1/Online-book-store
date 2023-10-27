@@ -1,5 +1,30 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## About the Project
+
+Introduction - Show Book list and featch dat from online API  
+
+Technologies - NextJS(13.5.6), Typescript, Tailwind
+
+API -  featching data from "https://developer.nytimes.com/apis" page to show all books details
+
+About Project and requirements-
+    Home page
+
+- It shows details including-
+        Book cover image
+        book title
+        author name
+
+Book Details Page - When you click on books it should take you to book detail page with a back button to go back to home page.
+- Page includs-
+        bigger book cover image
+        book title
+        author name 
+        description
+
+
+        
 ## Getting Started
 
 First, run the development server:
