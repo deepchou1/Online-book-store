@@ -3,5 +3,4 @@ export type Book = {
     imageAlt: string;
     name: string;
     author: string;
-    description?: string;
 }

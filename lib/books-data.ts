@@ -6,11 +6,11 @@ type BookResponse = {
     title : string
     author: string
     book_image: string
+    publisher: string
 }
 
 export async function getBooksList(): Promise<Array<BookResponse>> {
     const response = await fetch(BOOK_API + `/books/v3/lists/current/hardcover-fiction.json?api-key=${process.env.BOOKS_API_KEY}`);
-    //`/books/v3/lists/current/hardcover-fiction.json?api-key=${process.env.BOOKS_API_KEY}´
     const data = await response.json();
     return data.results?.books;
 }
