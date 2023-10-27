@@ -1,12 +1,12 @@
 
 const BOOK_API = "https://api.nytimes.com/svc/";
 
-type BookResponse = {
-    description : string;
+export type BookResponse = {
+    description? : string;
     title : string
     author: string
     book_image: string
-    publisher: string
+    publisher?: string
 }
 
 export async function getBooksList(): Promise<Array<BookResponse>> {
