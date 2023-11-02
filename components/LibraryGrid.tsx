@@ -1,4 +1,3 @@
-"use client"
 import { BookResponse } from "@/lib/books-data";
 import { BookCard } from "./BookCard";
 
